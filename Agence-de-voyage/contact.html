@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - KINEX FREIGHT</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <a href="index.html">KINEX<span>FREIGHT</span></a>
+            </div>
+            <div class="menu-toggle"><i class="fa-solid fa-bars"></i></div>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li><a href="index.html" class="nav__link">Accueil</a></li>
+                    <li><a href="a-propos.html" class="nav__link">À propos</a></li>
+                    <li><a href="services.html" class="nav__link">Services</a></li>
+                    <li><a href="contact.html" class="nav__link active">Contact</a></li>
+                </ul>
+            </nav>
+            <a href="https://wa.me/14386386200" class="btn btn--whatsapp" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i> 438-638-6200
+            </a>
+        </div>
+    </header>
+
+    <div class="page-header">
+        <div class="container">
+            <h1>Contactez-Nous</h1>
+        </div>
+    </div>
+
+    <section class="contact-section container">
+        <div class="contact-grid">
+            <!-- Colonne Infos et Réseaux Sociaux -->
+            <div class="contact-info">
+                <h2>Discutons de votre envoi</h2>
+                <p>Pour un devis rapide ou toute question, contactez-nous directement via nos canaux officiels.</p>
+                
+                <p style="margin-top: 30px;"><i class="fa-solid fa-location-dot"></i> 1692 Av Aird, Montréal QC H1V 2V5, Canada</p>
+                <p><i class="fa-solid fa-clock"></i> Lun - Sam : 09:00 – 18:00</p>
+
+                <div class="social-links">
+                    <a href="https://wa.me/14386386200" class="social-btn whatsapp" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp : +1 (438) 638-6200
+                    </a>
+                    <!-- J'ai mis un lien de recherche Facebook en attendant que tu mettes le vrai lien -->
+                    <a href="https://www.facebook.com/search/top?q=kinex%20freight" class="social-btn facebook" target="_blank">
+                        <i class="fa-brands fa-facebook"></i> Facebook : Kinex Freight
+                    </a>
+                    <a href="#" class="social-btn instagram" target="_blank">
+                        <i class="fa-brands fa-instagram"></i> Instagram (Bientôt)
+                    </a>
+                    <a href="#" class="social-btn tiktok" target="_blank">
+                        <i class="fa-brands fa-tiktok"></i> TikTok (Bientôt)
+                    </a>
+                    <a href="mailto:contact@kinexfreight.com" class="social-btn email">
+                        <i class="fa-solid fa-envelope"></i> contact@kinexfreight.com
+                    </a>
+                </div>
+            </div>
+
+            <!-- Colonne Formulaire -->
+            <div class="contact-form">
+                <h3>Demander un devis rapide</h3>
+                <p style="margin-bottom: 20px; font-size: 0.9rem; color: #666;">Remplissez ce formulaire, il ouvrira directement WhatsApp avec votre message pré-rempli.</p>
+                <form id="contact-form">
+                    <div class="form-group">
+                        <label for="nom">Votre Nom</label>
+                        <input type="text" id="nom" required placeholder="Ex: Jean Dupont">
+                    </div>
+                    <div class="form-group">
+                        <label for="pays-expedition">D'où expédiez-vous ?</label>
+                        <select id="pays-expedition">
+                            <option value="Montréal (Canada)">Montréal (Canada)</option>
+                            <option value="Kinshasa (RDC)">Kinshasa (RDC)</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message (type de colis, poids estimé...)</label>
+                        <textarea id="message" required placeholder="Ex: J'ai 2 cartons de vêtements de 15kg à envoyer à Kinshasa..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary" style="width: 100%;">Envoyer via WhatsApp</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer__content">
+            <div class="footer__brand">
+                <h3>KINEX FREIGHT</h3>
+                <p>International Freight & Logistics Solutions</p>
+            </div>
+            <div class="footer__links">
+                <h4>Liens rapides</h4>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="a-propos.html">À propos</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__contact">
+                <h4>Contact</h4>
+                <p><i class="fa-solid fa-phone"></i> +1 (438) 638-6200</p>
+                <p><i class="fa-solid fa-location-dot"></i> 1692 Av Aird, Montréal QC H1V 2V5</p>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <p>&copy; 2024 KINEX FREIGHT. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/14386386200" class="whatsapp-float" target="_blank">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
